@@ -1,0 +1,129 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+html,body{
+height:100%;
+width:100%;
+}
+.container{
+    background:linear-gradient(rgb(1, 2, 47) ,rgb(243, 241, 241));
+    height: 100vh;width: 100%;
+}
+header{
+    height: 70px;
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.logo img{
+    height: 50px;
+}
+span{
+    color :white;
+}
+.list{
+    width: 50%;
+    padding-left: 60px;
+}
+.list ul{
+    list-style-type: none;
+    display: flex;
+    padding: 14px;
+}
+.list ul li{
+    display: flex;
+    align-items: center;
+
+}
+.list ul li a{
+    text-decoration: none;
+    color: bisque;
+    margin-left: 40px;
+
+    font-size: 20px;
+
+
+}
+.icon{
+    width: 20%;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.icon button{
+background-color: blue;
+color: white;
+height: 30px;
+width: 100px;
+border: none;
+border-radius: 10px;
+font-size: 15px;
+}
+.icon button:hover{
+    background-color: rgb(85, 85, 186);
+}
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+.contain-right img{
+    width: 800px;
+}
+.contain-right img:hover{
+    scale: 0.9;
+}
+
+.contain-left{
+    width: 60%;
+}
+.contain-left h1{
+    font-size: 60px;
+    color: rgb(221, 215, 215);
+}
+.contain-left p{
+    color: rgb(72, 59, 59);
+    margin-top: 40px;
+}
+.bar{
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: relative; */
+}
+.bar div p{
+    color: black;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.bar span{
+    color: rgba(0, 0, 0, 0.455);
+}
+.bar div{
+    height: 20px;
+    border-right: 2px solid grey;
+    width: 20%;
+}
+.bar .sea{
+    background-color: rgb(48, 48, 195);
+    height: 50px;
+    padding-top: 16px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
